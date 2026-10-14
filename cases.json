@@ -1,0 +1,168 @@
+{
+  "cases": [
+    {
+      "id": "santiago-2026-10-14",
+      "title": "'Santiago: Cloud Login Alert' phish wave (Oct 14, 2026)",
+      "opened": "2026-10-14",
+      "status": "open",
+      "iocs": {
+        "ips": [
+          "94.237.68.249"
+        ],
+        "domains": [],
+        "buckets": [
+          "odfoiv654df.lon1.digitaloceanspaces.com"
+        ],
+        "senders": [
+          "havajabwkwgsyshwb4@gmail.com"
+        ],
+        "other": [
+          "whatsapp:+917777073492"
+        ]
+      },
+      "reports": [
+        {
+          "date": "2026-10-14",
+          "channel": "email",
+          "target": "abuse@digitalocean.com",
+          "reference": "new bucket odfoiv654df; cited prior ticket #12902340",
+          "status": "sent"
+        },
+        {
+          "date": "2026-10-14",
+          "channel": "webform",
+          "target": "Google Safe Browsing",
+          "reference": "2/2 URLs accepted",
+          "status": "submitted"
+        },
+        {
+          "date": "2026-10-14",
+          "channel": "email",
+          "target": "abuse@upcloud.com",
+          "reference": "relay 94.237.68.249 (mail.blanceresemt.com, forged HELO)",
+          "status": "sent"
+        },
+        {
+          "date": "2026-10-14",
+          "channel": "webform",
+          "target": "FBI IC3",
+          "reference": "supplemental filed; confirmation delivered in chat, not stored",
+          "status": "submitted"
+        }
+      ],
+      "follow_ups": [
+        {
+          "due": "2026-10-17",
+          "note": "Check for UpCloud abuse reply; re-report with fresh evidence if no action",
+          "done": false
+        },
+        {
+          "due": "2026-10-21",
+          "note": "Verify bucket odfoiv654df status via takedown watch",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "katrina-2026-10-13",
+      "title": "'Cloud Payment Failed' phish wave (Oct 13, 2026)",
+      "opened": "2026-10-13",
+      "status": "open",
+      "iocs": {
+        "ips": [
+          "45.10.59.20"
+        ],
+        "domains": [
+          "www.winchesterstudents.co.uk"
+        ],
+        "buckets": [
+          "yuoupuptrgggfg.lon1.digitaloceanspaces.com"
+        ],
+        "senders": [
+          "doanung.tham60811@gmail.com"
+        ]
+      },
+      "reports": [
+        {
+          "date": "2026-10-13",
+          "channel": "webform",
+          "target": "DigitalOcean Trust & Safety",
+          "reference": "submitted; no ticket number shown",
+          "status": "submitted"
+        },
+        {
+          "date": "2026-10-13",
+          "channel": "email",
+          "target": "abuse@digitalocean.com",
+          "reference": "auto-rejected by recipient",
+          "status": "failed"
+        },
+        {
+          "date": "2026-10-13",
+          "channel": "webform",
+          "target": "Google Safe Browsing",
+          "reference": "accepted",
+          "status": "submitted"
+        }
+      ],
+      "follow_ups": [
+        {
+          "due": "2026-10-20",
+          "note": "Verify bucket yuoupuptrgggfg status via takedown watch",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "sellerpaymentverify-campaign",
+      "title": "ebay.sellerpaymentverifi.com phishing kit campaign",
+      "opened": "2026-10-07",
+      "status": "open",
+      "iocs": {
+        "ips": [],
+        "domains": [
+          "ebay.sellerpaymentverifi.com",
+          "sellerpaymentverif.com",
+          "bitlaunchy.com"
+        ],
+        "buckets": [],
+        "senders": []
+      },
+      "reports": [
+        {
+          "date": "2026-10-08",
+          "channel": "email",
+          "target": "NiceNIC abuse",
+          "reference": "case #792495; sellerpaymentverify.com suspended (clientHold/NXDOMAIN)",
+          "status": "sent"
+        },
+        {
+          "date": "2026-10-13",
+          "channel": "email",
+          "target": "tipline@scammerpayback.org",
+          "reference": "phishing-operation tip sent",
+          "status": "sent"
+        },
+        {
+          "date": "2026-10-13",
+          "channel": "webform",
+          "target": "DigitalOcean Trust & Safety",
+          "reference": "ticket #12902340 (prior bucket wave)",
+          "status": "submitted"
+        }
+      ],
+      "follow_ups": [
+        {
+          "due": "2026-10-16",
+          "note": "bitlaunchy.com still live as of Oct 14 09:45 check; escalate if unchanged",
+          "done": false
+        },
+        {
+          "due": "2026-10-18",
+          "note": "Recheck sellerpaymentverif.com sibling for live lure",
+          "done": false
+        }
+      ]
+    }
+  ]
+}
